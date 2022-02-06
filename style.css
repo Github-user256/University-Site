@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner .logo {
+  margin-left: 25px;
+  padding-top: 25px;
+}
+/*--logo name-*/
+.banner .logo-title {
+  color: white;
+  display: flex;
+}
+
+.banner .nav-tabs {
+  list-style: none;
+  color: white;
+}
+
+.nav-tabs li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: float;
+  float: right;
+  padding: 0 25px;
+}
+
+/*------------------------------Banner--------------------------*/
+.banner {
+  background-image: linear-gradient(rgba(4, 9, 30, 1), rgba(4, 9, 30, 0.2)),
+    url(images/school.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.banner_title {
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+  font-size: 100px;
+  color: white;
+}
+
+.banner .banner_header {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.banner .enroll-button {
+  background-color: transparent;
+  border: 2px solid rgb(197, 197, 197);
+  color: rgb(192, 190, 190);
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 690px;
+}
+
+.banner .enroll-button:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+}
+
+.nav-tabs .home-logos {
+  display: flex;
+}
+
+.home-logos {
+  line-height: 60px;
+}
+
+.logo-title {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+/*-----------------Course Cards----------------*/
+.course {
+  margin-top: 50px;
+}
+
+.course p {
+  margin-top: 10px;
+  padding-top: 25px;
+}
+
+.course-card-over {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.row:hover {
+  content: "";
+  box-shadow: 0 0 20px 0 grey;
+}
+
+.course h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.course p {
+  text-align: center;
+}
+
+.row {
+  background-color: rgb(235, 232, 228);
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 40px 20px 100px 20px;
+  border-radius: 20px;
+}
+
+.row .card {
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.row .p-card {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+/*--------------------rating----------------*/
+.rating .fa {
+  color: red;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.rating {
+  margin: 20px 50px;
+  text-align: center;
+}
+
+.rating h1 {
+  font-size: 40px;
+}
+.rating .testimonials {
+  font-size: 30px;
+}
+.rating-card .girl-photo {
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-card {
+  background-color: rgb(235, 232, 228);
+  margin: 20px 300px;
+  border-radius: 15px;
+  padding: 30px 50px;
+  display: flex;
+}
+
+.rating-card p {
+  margin-top: 5px;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.rating-card h3 {
+  font-size: 20px;
+}
+.rating-card .guy-photo {
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-----Home Page Footer-----------*/
+.footer h3 {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.footer .icons {
+  text-align: center;
+}
+
+.footer .icons .fa {
+  margin-right: 10px;
+}
+
+.footer {
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+
+/*-----End Index----*/
+.banner-about {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 1.5)),
+    url(images/graduation.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.banner-about .logo {
+  margin-left: 25px;
+  padding-top: 25px;
+}
+/*--logo name-*/
+.banner-about .logo-title {
+  color: white;
+  display: flex;
+}
+
+.banner-about .nav-tabs {
+  list-style: none;
+  color: white;
+}
+
+.nav-tabs li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: float;
+  float: right;
+  padding: 0 25px;
+}
+
+.banner-about .banner_header {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.nav-tabs .logos {
+  display: flex;
+}
+
+.logos {
+  line-height: 60px;
+}
+
+.logo-title2 {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.banner-title2 {
+  margin-bottom: 0px;
+}
+
+.banner_title2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  font-size: 150px;
+  color: white;
+  padding-bottom: 50px;
+}
+/*-------------Campus---------------*/
+.campus-card img {
+  height: 400px;
+  width: 300px;
+  margin-top: 70px;
+  border-radius: 15px;
+  display: flex;
+  margin-left: 150px;
+}
+
+.campus-card h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.campus-titles h2 {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-left: 50px;
+}
+
+.campus-titles {
+  float: left;
+}
+
+.classes .chef1 {
+  height: 400px;
+  border-radius: 15px;
+  display: float;
+  float: right;
+}
+
+.classes .chef2 {
+  height: 400px;
+  border-radius: 15px;
+}
+.classes .chef3 {
+  height: 400px;
+  border-radius: 15px;
+}
+
+.classes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+  margin: 50px 50px;
+}
+
+.classes .class-photo1 {
+  height: 100px;
+}
+
+.photobanner img{
+  height: 400px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.photobanner{
+  margin-top: 50px;
+}
+.photobanner  p{
+  margin-left: 20px;
+}
+
+.photobanner h2{
+  margin-left: 20px;
+}
+
+.bannerpt2 img{
+  height: 400px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.bannerpt2 p{
+margin-right: 20px;
+}
+
+.bannerpt2 h2{
+  margin-right: 20px;
+}
+
+.bannerpt2{
+  margin-top: 100px;
+}
+
+.classbanner img{
+  height: 400px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.classbanner h2{
+  margin-left: 20px;
+}
+
+.classbanner p{
+  margin-left: 20px;
+}
+
+.classbanner{
+  margin-top: 150px;
+}
+
+
+
+.foodbanner .food {
+  height: 500px;
+  margin-bottom: 25px;
+}
+
+.foodbanner {
+  background: white;
+  overflow: hidden;
+}
+
+.foodbanner1 img {
+  height: 530px;
+  margin-bottom: 25px;
+}
+.foodbanner1 {
+  background: white;
+  overflow: hidden;
+}
+
+.foodbanner2 img {
+  height: 480px;
+  margin-bottom: 25px;
+}
+
+.foodbanner2 {
+  background: white;
+  overflow: hidden;
+}
+
+.show-banners {
+  margin: 100px 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.show-banners h1 {
+}
+
+/*----
+.campus .campus-card {
+  display: flex;
+}
+
+.campus-card .cali {
+  height: 50px;
+}
+*/
+/*---------------Contact Sheet-----------*/
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(189, 186, 209, 0.2);
+  padding: 25px 300px 50px 300px;
+  margin: 25px 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+input[type="text"]:focus {
+  background-color: rgba(58, 46, 77, 0.2);
+}
+
+textarea:focus {
+  background-color: rgba(122, 104, 151, 0.2);
+}
+
+.banner_title {
+  padding-top: 250px;
+}
+
+.pillar1 .student-chef {
+  height: 400px;
+  float: right;
+}
+
+/*.chef-info {
+  float: right;
+  text-align: right;
+  font-size: 18px;
+}
+
+.chef-info h2 {
+  font-size: 35px;
+}*/
+/*
+.row-picture .row-card {
+  float: right;
+}
+
+.chef-info {
+  margin-top: 25px;
+}
+
+.update {
+  font-size: 30px;
+  padding-left: 25px;
+  margin-right: 800px;
+  color: #1a8139;
+}
+
+.update .update-info {
+}
+
+.row-card {
+  margin-top: 50px;
+}
+
+.classes {
+  padding-left: 35px;
+  color: #1a8139;
+  font-size: 30px;
+}
+
+.weekday {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pillar1 {
+  display: float;
+  float: inline-end;
+}
+-*
